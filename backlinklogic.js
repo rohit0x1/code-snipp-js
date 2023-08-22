@@ -13,7 +13,7 @@ function redirectToRandomURLWithReload() {
     }
 
     // Set a timeout to reload the page after 5 minutes (300,000 milliseconds)
-    setTimeout(reloadPage, 10000);
+    setTimeout(reloadPage, 1000);
 
     // Choose a random URL index
     const randomIndex = Math.floor(Math.random() * urls.length);
